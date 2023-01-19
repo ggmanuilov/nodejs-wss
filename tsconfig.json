@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist/server",
+    "strict": true,
+    "declaration": true,
+    "esModuleInterop": false,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "ts-node": {
+    "esm": true
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
